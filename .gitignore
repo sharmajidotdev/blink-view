@@ -1,0 +1,10 @@
+# --- Cargo / Rust ---
+# Block the entire target directory where compiled files live
+/target/
+
+# Block the Cargo lockfile only if this is a library crate
+# Cargo.lock
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
